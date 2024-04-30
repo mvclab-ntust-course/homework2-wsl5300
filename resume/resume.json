@@ -1,0 +1,211 @@
+{
+  "basics": {
+    "name": "Sheng-Hao Liao",
+    "label": "FLYING CAT",
+    "summary": "**Software developer with 5+ years industry experience** specializing in computer vision and computer graphics. 23 years old.",
+    "website": "https://resume.frakw.com",
+    "phone": "+886 0976762546",
+    "email": "frakwu@gmail.com",
+    "picture": "https://raw.githubusercontent.com/frakw/frakw.github.io/main/frakw.jpg",
+    "location": {
+      "address": "Sheng-Hao Liao \n新北市永和區",
+      "postalCode": "230",
+      "city": "New Taipei City",
+      "countryCode": "TW",
+      "region": "Taipei Metropolitan"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "frakw",
+        "url": "https://github.com/frakw",
+        "iconClass": "fa fa-github-square"
+      },
+      {
+        "network": "Linkedin",
+        "username": "frakw",
+        "url": "https://www.linkedin.com/in/frakw/",
+        "iconClass": "fa fa-linkedin-square"
+      },
+      {
+        "network": "LinkTree",
+        "username": "frakw",
+        "url": "https://linktr.ee/frakw"
+      },
+      {
+        "network": "Medium",
+        "username": "frakw",
+        "url": "https://medium.com/@frakw"
+      },
+      {
+        "network": "HackMD",
+        "username": "frakw",
+        "url": "https://hackmd.io/@frakw"
+      },
+      {
+        "network": "Youtube",
+        "username": "frakw",
+        "url": "https://www.youtube.com/@frakw",
+        "iconClass": "fa fa-youtube-square"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NTUST MVCLab",
+      "website": "https://faculty.csie.ntust.edu.tw/~hua/",
+      "position": "Master Student",
+      "startDate": "2023-07",
+      "endDate": "present",
+      "summary": "Develope and research computer vision",
+      "highlights": [
+        "ITRI Bird’s-Eye View Project",
+        "Kulicke & Soffa circuit layout format transfer",
+        "ITRI UAV Depth Cloud Project",
+        "Kulicke & Soffa OCT Denoising"
+      ]
+    },
+    {
+      "company": "NTUST DDRC",
+      "website": "https://ntust-ddrc.com/",
+      "position": "Developer",
+      "startDate": "2021-01",
+      "endDate": "2023-06",
+      "summary": "Develope computer graphics project",
+      "highlights": [
+        "Procedural generate 3D building from rule-based grammar system (College Student Research Scholarship, NSC)",
+        "IGS Impostor Project (tool for arcade game : https://asphaltmotoblitz.igsgame.net/)"
+      ]
+    },
+    {
+      "company": "TCIVS Electron",
+      "website": "https://w3.tcivs.tc.edu.tw/ischool/publish_page/91/",
+      "position": "Student",
+      "startDate": "2016-09",
+      "endDate": "2019-06",
+      "summary": "Making electronic circuit projects",
+      "highlights": [
+        "National Senior High School Electrical and Electronics Group Creative Production Competition Excellent Works (https://youtu.be/51b18q4FcFk?si=xMGQprgmXgLLvu9t)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Taiwan University of Science and Technology (NTUST)",
+      "area": "Computer Science",
+      "startDate": "2023-07",
+      "endDate": "present",
+      "studyType": "Master"
+    },
+    {
+      "institution": "National Taiwan University of Science and Technology (NTUST)",
+      "area": "Computer Science",
+      "startDate": "2019-09",
+      "endDate": "2023-06",
+      "studyType": "Bachelor"
+    },
+    {
+      "institution": "Taichung Municipal Taichung Industrial High School (TCIVS)",
+      "area": "Electronics",
+      "startDate": "2016-09",
+      "endDate": "2019-06",
+      "studyType": "High school"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Langages",
+      "keywords": [
+        "C/C++",
+        "Python",
+        "Javascript",
+        "C#/.net"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "keywords": [
+        "OpenCV",
+        "Pytorch",
+        "ROS",
+        "PCL"
+      ]
+    },
+    {
+      "name": "Computer Graphics",
+      "keywords": [
+        "OpenGL",
+        "Unity3D",
+        "Blender"
+      ]
+    },
+    {
+      "name": "Operating System",
+      "keywords": [
+        "Linux(debian/ubuntu)",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Server, Network",
+      "keywords": [
+        "Docker",
+        "ProxmoxVE",
+        "OpenWRT",
+        "WireGuard"
+      ]
+    }
+
+  ],
+  "interests": [
+    {
+      "name": "Travel",
+      "summary": "",
+      "keywords": [
+        "Shanghai, China",
+        "Hokkaido, Japan",
+        "Hong Kong, China",
+        "Hanoi, Vietnam",
+        "Bangkok, Thailand",
+        "Beijing, China",
+        "Amoy, China",
+        "Okinawa, Japan",
+        "Kyushu, Japan",
+        "Macao, China",
+        "Sydney, Australia",
+        "Kansai, Japan"
+      ]
+    },
+    {
+      "name": "Electronic Maker"
+    },
+    {
+      "name": "Mountain hiking"
+    },
+    {
+      "name": "Planting",
+      "summary": ""
+    },
+    {
+      "name": "Video games"
+    },
+    {
+      "name": "Fossil"
+    },
+    {
+      "name": "Astronomy"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "level": "Native",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "level": "TOEIC 660",
+      "fluency": "TOEIC 660"
+    }
+  ]
+}

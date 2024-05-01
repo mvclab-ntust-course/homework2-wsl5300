@@ -3,10 +3,10 @@
     "name": "Sheng-Hao Liao",
     "label": "FLYING CAT",
     "summary": "**Software developer with 5+ years industry experience** specializing in computer vision and computer graphics. 23 years old.",
-    "website": "https://resume.frakw.com",
+    "url": "https://resume.frakw.com",
     "phone": "+886 0976762546",
     "email": "frakwu@gmail.com",
-    "picture": "https://raw.githubusercontent.com/frakw/frakw.github.io/main/frakw.jpg",
+    "image": "https://raw.githubusercontent.com/frakw/frakw.github.io/main/frakw.jpg",
     "location": {
       "address": "Sheng-Hao Liao \n新北市永和區",
       "postalCode": "230",
@@ -52,8 +52,8 @@
   },
   "work": [
     {
-      "company": "NTUST MVCLab",
-      "website": "https://faculty.csie.ntust.edu.tw/~hua/",
+      "name": "NTUST MVCLab",
+      "url": "https://faculty.csie.ntust.edu.tw/~hua/",
       "position": "Master Student",
       "startDate": "2023-07",
       "endDate": "present",
@@ -66,8 +66,8 @@
       ]
     },
     {
-      "company": "NTUST DDRC",
-      "website": "https://ntust-ddrc.com/",
+      "name": "NTUST DDRC",
+      "url": "https://ntust-ddrc.com/",
       "position": "Developer",
       "startDate": "2021-01",
       "endDate": "2023-06",
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "company": "TCIVS Electron",
-      "website": "https://w3.tcivs.tc.edu.tw/ischool/publish_page/91/",
+      "name": "TCIVS Electron",
+      "url": "https://w3.tcivs.tc.edu.tw/ischool/publish_page/91/",
       "position": "Student",
       "startDate": "2016-09",
       "endDate": "2019-06",

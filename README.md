@@ -77,23 +77,23 @@
 
 * __Classwork 2-2__
   * image traefik 無法開啟
-  * docker_compose.yml 將 ```traefik``` 修改成 ```traefik:v1.7``` 可以開啟 ‘http://localhost:8080'
-  * 但 glances-monitor還是無法開啟 'http://localhost:61208'
+  * docker_compose.yml 將 ```traefik``` 修改成 ```traefik:v1.7``` 可以開啟 `http://localhost:8080`
+  * 但 glances-monitor還是無法開啟 `http://localhost:61208`
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-07%20at%2003.58.35%402x.png" width="600" />
 
 ## Dockerfile
-- filename 'Dockfile', 注意不需要任何副檔名
-  - 在Dockerfile目錄下 run docker build -t my-yolo .```
-  - 建立image name 'my-yolo'
+- filename `Dockfile`, 注意不需要任何副檔名
+  - 在Dockerfile目錄下 ```run docker build -t my-yolo .```
+  - 建立image name `my-yolo`
   - ```docker run -it --rm my-yolo``` (創建container並運行)
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-07%20at%2004.15.32%402x.png" width="600" />
 
-- 在container中，openCV-python 因為容器缺少GUI介面無法顯示'cv2.imshow()'
+- 在container中，openCV-python 因為容器缺少GUI介面無法顯示`cv2.imshow()`
 
 
-- ```pip install requirements.txt``` 後還有其他需要的依賴，做成 'docker-compose.yaml'
+- ```pip install requirements.txt``` 後還有其他需要的依賴，做成 `docker-compose.yaml`
 
-- ```python detect.py --view-img --nosave --weights yolov5x.pt --source video/argoverse/argoverse.mp4  --run-liteMono --run-bev --classes 2 5 7``` 沒有成功運行，就沒有做 'docker-compose.yaml' 。
+- ```python detect.py --view-img --nosave --weights yolov5x.pt --source video/argoverse/argoverse.mp4  --run-liteMono --run-bev --classes 2 5 7``` 沒有成功運行，就沒有做 `docker-compose.yaml` 。
 
 
 

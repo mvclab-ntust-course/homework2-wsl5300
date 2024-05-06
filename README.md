@@ -5,21 +5,22 @@
 
 ### Local:
 <!-- 这是一个隐藏的注释，不会在 Markdown 渲染的结果中显示 -->
-- Download the repository from the cloud and rename it to `git_practice_wsl`.
+- Download the repository and rename it to `git_practice_wsl`.（從week2 雲端）
 
 ### GitLab:
 <!-- 这里也是一个注释 -->
-- Create a GitLab account and fork the repository: [https://gitlab.com/frakw/git_practice](https://gitlab.com/frakw/git_practice).
+- 建立gitlab帳號，並fork :
+  [https://gitlab.com/frakw/git_practice](https://gitlab.com/frakw/git_practice).
 
 ## Set SSH Connection
 
 ### Local:
 <!-- 生成 SSH 键的注释 -->
-- Generate a pair of SSH keys (the public key will have the extension `.pub`).
+- 產生一對 SSH keys (the public key will have the extension `.pub`).
 - Add the private key to SSH.
 
 ### GitLab:
-- Go to Settings >> SSH Key and add your public key.
+- Settings >> SSH Key (add your public key).
 
 ## Conflict
 
@@ -34,10 +35,10 @@
 ## Error During Submission
 
 <!-- 解释错误原因和修改方法 -->
-**Reason for Error**: Using an SSH connection, but the URL is set to an HTTP connection.
+**Error**: 使用SSH連線，url卻設定成http連線。
 
 **Resolution**:
-- Modify the URL to use SSH instead.
+- Modify
 
 ## Final Steps
 

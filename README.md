@@ -18,7 +18,8 @@
 <!-- 生成 SSH 键的注释 -->
 - 產生一對 SSH keys (the public key will have the extension `.pub`).
 - Add the private key to SSH.
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2000.54.06%402x.png)
+< img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2000.54.06%402x.png" width=60% >
+
 ![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.04.50%402x.png)
 
 ### GitLab:

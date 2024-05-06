@@ -37,7 +37,7 @@
 ### Local:
 <!-- 使用 VSCode 解决冲突的详细说明 -->
 - Resolve using Visual Studio Code (VSCode).
-<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.23.10%402x.png" width="600" />
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2017.39.03%402x.png" width="600" />
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2017.41.06%402x.png" width="600" />
 
 ## Error During Submission
@@ -57,6 +57,6 @@
 
 ### GitLab:
 - Create a merge request.
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2018.00.49%402x.png" width="600" />
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2018.00.49%402x.png" width="600" />
 
 

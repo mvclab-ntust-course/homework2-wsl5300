@@ -20,43 +20,43 @@
 - Add the private key to SSH.
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2000.54.06%402x.png" width="600" />
 
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.04.50%402x.png)
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.04.50%402x.png" width="600" />
 
 ### GitLab:
 - Settings >> SSH Key (add your public key).
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.01.11%402x.png)
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.01.11%402x.png" width="600" />
 
 ## Conflict
 
 ### Local:
 - Encounter conflict.
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.23.10%402x.png)
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.23.10%402x.png" width="600" />
 
 ## Solve
 
 ### Local:
 <!-- 使用 VSCode 解决冲突的详细说明 -->
 - Resolve using Visual Studio Code (VSCode).
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.23.10%402x.png)
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2017.41.06%402x.png)
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.23.10%402x.png" width="600" />
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2017.41.06%402x.png" width="600" />
 
 ## Error During Submission
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.31.20%402x.png)
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.31.20%402x.png" width="600" />
 <!-- 解释错误原因和修改方法 -->
 **Error**: 使用SSH連線，url卻設定成http連線。
 
 **Resolution**:
 - Modify
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.35.35%402x.png)
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.35.35%402x.png" width="600" />
 
 ## Final Steps
 
 ### Local:
 - Upload changes to GitLab.
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.39.39%402x.png)
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.39.39%402x.png" width="600" />
 
 ### GitLab:
 - Create a merge request.
-![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2018.00.49%402x.png)
+![image](https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2018.00.49%402x.png" width="600" />
 
 

@@ -47,9 +47,8 @@
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.31.20%402x.png" width="600" />
 <br/><br/>
 <!-- 解释错误原因和修改方法 -->
-**Error**: 
-- 使用SSH連線，url卻設定成http連線。
-<br/><br/>
+**Error**:使用SSH連線，url卻設定成http連線。
+
 **Resolution**:
 - Modify
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.35.35%402x.png" width="600" />

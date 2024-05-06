@@ -1,6 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/qPD8ugtn)
-# Week 2 - Resolve Conflict and PR
+# Week 2 (1/3) - Resolve Conflict and PR 
 
+* Classwork 1
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/mvc_hw2_1.png" width="600" />
+<br/><br/>
 ## Prepare Environment
 
 ### Local:
@@ -47,7 +50,7 @@
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.31.20%402x.png" width="600" />
 <br/><br/>
 <!-- 解释错误原因和修改方法 -->
-**Error**:使用SSH連線，url卻設定成http連線。
+**Error**: 使用SSH連線，url卻設定成http連線。
 
 **Resolution**:
 - Modify
@@ -63,5 +66,33 @@
 ### GitLab:
 - Create a merge request.
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2018.00.49%402x.png" width="600" />
+<br/><br/>
+
+# Week 2 (2/3) - write Dockerfile and docker-compose.yaml
+* Classwork 2-1
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2011.30.37%402x.png" width="400" />
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2011.31.28%402x.png" width="400" />
+
+* Classwork 2-2
+  * image traefik 無法開啟
+  * docker_compose.yml 將 'traefik' 修改成 'traefik:v1.7' 可以開啟‘http://localhost:8080'
+  * 但 glances-monitor還是無法以'http://localhost:61208'開啟
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-07%20at%2003.58.35%402x.png" width="600" />
+
+## Dockerfile
+- filename 'Dockfile', 注意不需要任何副檔名
+- 在Dockerfile目錄下 run ```docker build -t my-yolo .```
+- 建立image name 'my-yolo'
+- ```docker run -it --rm my-yolo``` 創建container並運行
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-07%20at%2004.15.32%402x.png" width="600" />
+
+- 在container中，openCV-python 因為容器缺少GUI介面無法顯示'cv2.imshow()'
 
 
+- 有許多'pip install requirements.txt' 後還需要的依賴，做成'docker-compose.yaml'
+
+
+# Week 2 (3/3) - use CVAT to label dataset
+- Export format 'COCO1.0', and name 'car_50.zip'
+
+<img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-07%20at%2003.34.12%402x.png" width="600" />

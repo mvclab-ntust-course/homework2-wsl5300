@@ -11,7 +11,8 @@
 <!-- 这里也是一个注释 -->
 - 建立gitlab帳號，並fork :
   [https://gitlab.com/frakw/git_practice](https://gitlab.com/frakw/git_practice).
-<br><br>
+
+  
 ## Set SSH Connection
 
 ### Local:
@@ -25,13 +26,15 @@
 ### GitLab:
 - Settings >> SSH Key (add your public key).
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.01.11%402x.png" width="600" />
-<br><br>
+
+  
 ## Conflict
 
 ### Local:
 - Encounter conflict.
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.23.10%402x.png" width="600" />
-<br><br>
+
+  
 ## Solve
 
 ### Local:
@@ -39,16 +42,19 @@
 - Resolve using Visual Studio Code (VSCode).
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2017.39.03%402x.png" width="600" />
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-05%20at%2017.41.06%402x.png" width="600" />
-<br><br>
+
+  
 ## Error During Submission
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.31.20%402x.png" width="600" />
 <!-- 解释错误原因和修改方法 -->
 **Error**: 使用SSH連線，url卻設定成http連線。
-<br>
+
+  
 **Resolution**:
 - Modify
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.35.35%402x.png" width="600" />
-<br><br>
+
+  
 ## Final Steps
 
 ### Local:

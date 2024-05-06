@@ -49,9 +49,10 @@
 <br/><br/>
 ## Error During Submission
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2001.31.20%402x.png" width="600" />
-<br/><br/>
+
 <!-- 解释错误原因和修改方法 -->
-__Error__: 使用SSH連線，url卻設定成http連線。
+- **Error**: 使用SSH連線，url卻設定成http連線。
+<br/><br/>
 
 **Resolution**:
 - Modify

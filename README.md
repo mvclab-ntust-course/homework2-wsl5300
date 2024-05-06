@@ -1,7 +1,7 @@
-<img width="1463" alt="image" src="https://github.com/mvclab-ntust-course/homework2-wsl5300/assets/145185075/d3cdb89e-9f62-4b67-89c9-2cd9c04e337a">[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/qPD8ugtn)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/qPD8ugtn)
 # Week 2 (1/3) - Resolve Conflict and PR 
 
-* Classwork 1
+* __Classwork 1__
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/mvc_hw2_1.png" width="600" />
 <br/><br/>
 
@@ -71,11 +71,11 @@
 <br/><br/>
 
 # Week 2 (2/3) - write Dockerfile and docker-compose.yaml
-* Classwork 2-1
+* __Classwork 2-1__
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2011.30.37%402x.png" width="400" />
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-06%20at%2011.31.28%402x.png" width="400" />
 
-* Classwork 2-2
+* __Classwork 2-2__
   * image traefik 無法開啟
   * docker_compose.yml 將 '''traefik''' 修改成 '''traefik:v1.7''' 可以開啟 ‘http://localhost:8080'
   * 但 glances-monitor還是無法開啟'http://localhost:61208'
@@ -83,9 +83,9 @@
 
 ## Dockerfile
 - filename 'Dockfile', 注意不需要任何副檔名
-- 在Dockerfile目錄下 run ```docker build -t my-yolo .```
-- 建立image name 'my-yolo'
-- ```docker run -it --rm my-yolo``` (創建container並運行)
+  - 在Dockerfile目錄下 run ```docker build -t my-yolo .```
+  - 建立image name 'my-yolo'
+  - ```docker run -it --rm my-yolo``` (創建container並運行)
 <img src="https://github.com/mvclab-ntust-course/homework2-wsl5300/blob/main/photos/CleanShot%202024-05-07%20at%2004.15.32%402x.png" width="600" />
 
 - 在container中，openCV-python 因為容器缺少GUI介面無法顯示'cv2.imshow()'
@@ -93,7 +93,7 @@
 
 - '''pip install requirements.txt''' 後還有其他需要的依賴，做成'docker-compose.yaml'
 
-'''python detect.py --view-img --nosave --weights yolov5x.pt --source video/argoverse/argoverse.mp4  --run-liteMono --run-bev --classes 2 5 7'''沒有成功運行，就沒有做'docker-compose.yaml'。
+- '''python detect.py --view-img --nosave --weights yolov5x.pt --source video/argoverse/argoverse.mp4  --run-liteMono --run-bev --classes 2 5 7''' 沒有成功運行，就沒有做 'docker-compose.yaml' 。
 
 
 
